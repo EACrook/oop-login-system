@@ -2,7 +2,7 @@
 // connect to DB
 class Dbh {
 
-    private function connect() {
+    protected function connect() {
         try {
             // changes depending on localhost
             $username = "root";
